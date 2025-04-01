@@ -7,11 +7,12 @@ Este repositorio contiene el código y los resultados del análisis de objetos b
 - **Carpeta `imagenes_binarias/`**: Contiene las imágenes en formato binario utilizadas en el análisis.
 - **Carpeta `resultados/`**: Contiene las carpetas generadas con los resultados de cada procesamiento, incluyendo las transformaciones y los gráficos.
 - **Archivos `.py`**: Programas en Python desarrollados para el procesamiento de las imágenes:
-  - `centro_de_masa.py`: Cálculo del centro de masa y momentos centrales.
-  - `momentos_hu.py`: Cálculo de los tres primeros momentos invariantes de Hu.
-  - `transformaciones.py`: Aplicación de rotaciones y transformaciones morfológicas.
-  - `generar_csv.py`: Generación de archivos CSV con los resultados obtenidos.
-  - `graficos.py`: Generación de gráficos para visualizar los resultados.
+  - `centro_de_masa.py`.
+  - `momentos.py`
+  - `mapas_del_contorno.py`
+  - `Obtencion_de_graficos.py`
+  - `p9_operadores.py`
+  - `rotation.py`
 - **Archivos `.csv`**: Archivos con los resultados numéricos obtenidos en cada etapa del análisis.
 - **Reporte en PDF**: Documento con la explicación del procedimiento, resultados y conclusiones.
 
@@ -20,17 +21,6 @@ Para ejecutar los programas en Python, se requieren las siguientes bibliotecas:
 ```sh
 pip install numpy pandas opencv-python matplotlib
 ```
-
-## Uso
-Ejecutar cada archivo de la siguiente manera:
-```sh
-python centro_de_masa.py
-python momentos_hu.py
-python transformaciones.py
-python generar_csv.py
-python graficos.py
-```
-Los resultados se guardarán en la carpeta `resultados/` y los datos en los archivos CSV correspondientes.
 
 ## Contacto
 Para cualquier consulta sobre este proyecto, contactar al desarrollador a través de este repositorio.
